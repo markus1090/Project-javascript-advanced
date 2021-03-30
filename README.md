@@ -173,4 +173,4 @@ let spectrum = [
 ## Contacts
 Marco Borea - [Linkedin](https://www.linkedin.com/in/marco-borea-431927206/)
 
-Link Progetto: https://github.com/markus1090/Project-javascript-advanced/tree/master
+Link Progetto: https://github.com/markus1090/Project-javascript-advanced/tree/master/dist
