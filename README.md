@@ -12,13 +12,13 @@
 </details>
 
 ## Description
-Web app that allows to receive dates about air pollution, with the use of user's input or
-with the function of Geo-localization. API have been requested from <a>aqicn.org</a>.
+Web app that allows receiving dates about air pollution, with the use of user's input or with the function of Geo-localization. 
+API has been requested from <a>aqicn.org</a>.
 
 ## How it works
 Elements that we can use:
 * Search section by name,
-* Get station closer you.
+* Get station closer to you.
 After which, the app will generate the table with the results found.
 We can see the table legend at the bottom of the page.
 
@@ -28,8 +28,7 @@ We can see the table legend at the bottom of the page.
 The web app is completely responsive with the use of media query.
 
 ## Code Javascript
-I have created the classes for the two components.
-Each class has own methods: (The code below appertain to search section)
+I created the classes for the two components. Each class has its own methods: (the underlying code belongs to the search section)
 * Class and creation component:
 
 ```javascript
@@ -80,7 +79,7 @@ eventSearch() {
     }
 ```
 
-* Methods that generates table and shows dates:
+* Methods that generate table and show dates:
 
 ```javascript
 generateHeaderTable() {
@@ -144,7 +143,7 @@ showSearch(data) {
     } 
 ```
 
-* Method that compares tha value of AQI with a array of objects (spectrum), to return the right level color:
+* The method that compares the value of AQI with an array of objects (spectrum), to return the right level color:
 
 ```javascript
 checkColor(checkColor, cell1) {
