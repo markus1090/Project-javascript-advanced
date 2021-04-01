@@ -113,7 +113,7 @@ class Search {
                     let data = await response.json();
                     return searchName.showSearch(data);
                 } catch (err) {
-                    console.log("erroreee"); 
+                    console.log("error" + err); 
                 }           
             }
         search();

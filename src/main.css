@@ -137,21 +137,26 @@ body {
   order: 5;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-#table, #tableGeo {
+#table, #tableGeo, #tableGeo2{
   font-size: large;
   text-align: center;
   background-color: whitesmoke;
+  margin-top: 30px;
 }
 
-#table th, #tableGeo th{
+#table th, #tableGeo th, #tableGeo2 th{
   font-size: 15px;
   border-style: groove;
+  padding: 5px;
 }
 
-#table td, #tableGeo td{
+#table td, #tableGeo td, #tableGeo2 td{
   border-style: groove;
+  padding: 5px;
 }
 
 #legend {
@@ -272,12 +277,12 @@ body {
     width: 95%;
   }
   
-  #table th, #tableGeo th{
+  #table th, #tableGeo th, #tableGeo2 th{
     font-size: 25px;
     padding: 7px;
   }
   
-  #table td, #tableGeo td{
+  #table td, #tableGeo td, #tableGeo2 td{
     padding: 7px;
   }
   
@@ -370,14 +375,18 @@ body {
     height: 100%;
     width: 100%;
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
-  #table th, #tableGeo th{
+  #table th, #tableGeo th, #tableGeo2 th{
     font-size: 30px;
     padding: 7px;
   }
   
-  #table td, #tableGeo td{  
+  #table td, #tableGeo td, #tableGeo2 td{  
     padding: 10px;
   }
   
