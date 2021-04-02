@@ -1,5 +1,7 @@
 const { parseInt } = require("lodash");
 
+let secretName = process.env.SECRET_NAME;
+
 class Search {
     constructor(name) {
         this.name = name;
@@ -108,7 +110,7 @@ class Search {
                     return console.log("Insert text");                
                 }
                 try {
-                    let api_url = ("https://api.waqi.info/search/?token=" + process.env.SECRET_NAME + "&keyword=" + keyword);
+                    let api_url = ("https://api.waqi.info/search/?token=" + secretName + "&keyword=" + keyword);
                     let response = await fetch(api_url);
                     let data = await response.json();
                     return searchName.showSearch(data);

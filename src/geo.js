@@ -1,4 +1,6 @@
- class Geo {
+let secretName = process.env.SECRET_NAME;
+ 
+class Geo {
     constructor(name) {
         this.name = name;
     }
@@ -19,7 +21,7 @@
         let crd = pos.coords;
         async function geo() { 
           try {
-            let api_url = ("https://api.waqi.info/feed/geo:" + crd.latitude +";"+ crd.longitude + "/?token=" + process.env.SECRET_NAME);
+            let api_url = ("https://api.waqi.info/feed/geo:" + crd.latitude +";"+ crd.longitude + "/?token=" + secretName);
             let response = await fetch(api_url);
             let data = await response.json();
             console.log(data);
