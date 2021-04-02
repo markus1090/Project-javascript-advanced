@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DotenvWebpackPlugin = require('dotenv-webpack');
 
 module.exports = {
-mode: 'development',
+mode: 'production',
 entry: {
   index: './src/index.js',
   geo: './src/geo.js',
