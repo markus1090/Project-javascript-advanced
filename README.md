@@ -172,4 +172,4 @@ let spectrum = [
 ## Contacts
 Marco Borea - [Linkedin](https://www.linkedin.com/in/marco-borea-431927206/)
 
-Link Progetto: https://github.com/markus1090/Project-javascript-advanced/tree/master/dist
+Project Link: https://606734c8f6b18dab9734ec81--distracted-pasteur-a24302.netlify.app/
